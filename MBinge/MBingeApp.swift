@@ -11,7 +11,7 @@ import SwiftUI
 struct MBingeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ContentView()
         }
     }
 }
