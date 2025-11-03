@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
 		TabView {
 			Tab (Constants.homeTabStr, systemImage: Constants.homeTabIconStr) {
-				Text(Constants.homeTabStr)
+				HomeView()
 			}
 			Tab (Constants.upcomingTabStr, systemImage: Constants.upcomingTabIconStr) {
 				Text(Constants.upcomingTabStr)
@@ -27,5 +27,5 @@ struct ContentView: View {
 }
 
 #Preview {
-	ContentView().preferredColorScheme(.dark)
+	ContentView()
 }
