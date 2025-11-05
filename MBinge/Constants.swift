@@ -5,8 +5,6 @@
 //  Created by Aditya Saxena on 01/11/25.
 //
 
-import SwiftUI
-
 struct Constants {
 	static let homeTabStr = "Home"
 	static let upcomingTabStr = "Upcoming"
@@ -27,4 +25,6 @@ struct Constants {
 	static let testTitleURL3 = "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
 	
 	static let vidPlayStr = "Play"
+	
+	static let posterURLStart = "https://image.tmdb.org/t/p/w500"
 }
